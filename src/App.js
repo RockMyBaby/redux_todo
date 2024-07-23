@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import AddToDo from './components/AddToDo'
+import ToDo from './components/ToDo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-          Learn React
-      </header>
+          <p>Learn React</p>
+      <AddToDo />
+      <ToDo />
     </div>
   );
 }
